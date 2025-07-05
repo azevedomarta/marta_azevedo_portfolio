@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "regular";
+  src: url(fonts/ABCDiatype-Regular-Trial.otf);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.header {
+  margin: 0.625rem;
+  width: 90%;
+  max-width: 18.75rem;
+  position: fixed;
+}
+
+img {
+  max-width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.94rem;
+  width: 90%;
+  max-width: 18.75rem;
+}
+
+.button_footer {
+  color: black;
+  font-family: "regular";
+  font-size: 2rem;
+  padding-bottom: 0.94rem;
+}
+
+.button_footer:hover {
+  text-decoration: underline 2px blue;
+  color: blue;
+  text-underline-offset: 0.3rem;
+}
+
+#add_padding {
+  padding-bottom: 1.25rem;
+}
