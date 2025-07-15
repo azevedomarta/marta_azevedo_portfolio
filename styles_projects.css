@@ -95,7 +95,7 @@ img {
 
 .project_name {
   border-bottom: solid 2px black;
-  line-height: 3.1rem;
+  padding: 1rem 0 1rem 0;
 }
 
 .project_name:hover {
@@ -199,7 +199,9 @@ p {
 .listad,
 .desenhar,
 .bias,
-.what {
+.what,
+.mexe,
+.povo {
   max-width: 100%;
   margin: 0 auto;
   display: block;
@@ -219,4 +221,8 @@ p {
 
 #bias_1 {
   padding-bottom: 0.6rem;
+}
+
+#bias_2 {
+  padding-top: 0.6rem;
 }
